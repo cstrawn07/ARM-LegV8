@@ -1,0 +1,420 @@
+
+Fib for input of 13
+
+Store @ fffffff0
+ADDI = ca300ac
+x0 = ca33940
+x0 = ca33940
+13 = d
+
+Store @ fffffff1
+fib = 626966
+entry = 1
+
+string3 = 
+
+
+Store @ fffffff2
+ADDI = ca300ac
+x9 = ca33964
+x0 = ca33940
+1 = 1
+
+Store @ fffffff3
+LSL = ca3391c
+x9 = ca33964
+x9 = ca33964
+3 = 3
+
+Store @ fffffff4
+SUB = ca339d0
+sp = ca339b0
+sp = ca339b0
+x9 = ca33964
+
+Store @ fffffff5
+ADDI = ca300ac
+x10 = ca33968
+xzr = ca339bc
+2 = 2
+
+Store @ fffffff6
+STUR = ca339c0
+xzr = ca339bc
+sp = ca339b0
+0 = 0
+
+Store @ fffffff7
+ADDI = ca300ac
+x11 = ca3396c
+xzr = ca339bc
+1 = 1
+
+Store @ fffffff8
+STUR = ca339c0
+x11 = ca3396c
+sp = ca339b0
+8 = 8
+
+Store @ fffffff9
+loop = 706f6f6c
+entry = 9
+
+string3 = 
+
+
+Store @ fffffffa
+SUBS = ca339dc
+xzr = ca339bc
+x10 = ca33968
+x0 = ca33940
+
+Store @ fffffffb
+B.GT = ca300cc
+endl = 6c646e65
+
+Store @ fffffffc
+SUBI = ca339d4
+x12 = ca33970
+x10 = ca33968
+2 = 2
+
+Store @ fffffffd
+LSL = ca3391c
+x12 = ca33970
+x12 = ca33970
+3 = 3
+
+Store @ fffffffe
+ADD = ca300a8
+x12 = ca33970
+sp = ca339b0
+x12 = ca33970
+
+Store @ ffffffff
+LDUR = ca3390c
+x13 = ca33974
+x12 = ca33970
+0 = 0
+
+Store @ 0
+LDUR = ca3390c
+x14 = ca33978
+x12 = ca33970
+8 = 8
+
+Store @ 1
+ADD = ca300a8
+x14 = ca33978
+x13 = ca33974
+x14 = ca33978
+
+Store @ 2
+STUR = ca339c0
+x14 = ca33978
+x12 = ca33970
+16 = 10
+
+Store @ 3
+ADDI = ca300ac
+x10 = ca33968
+x10 = ca33968
+1 = 1
+
+Store @ 4
+B = ca300d8
+loop = 706f6f6c
+
+Store @ 5
+endl = 6c646e65
+entry = 21
+
+string3 = 
+
+
+Store @ 6
+ADD = ca300a8
+sp = ca339b0
+sp = ca339b0
+x9 = ca33964
+
+Store @ 7
+BR = ca300f0
+x30 = ca339b8
+
+
+
+
+entry = 24
+ADDI start = 13
+ADDI start = 14
+LSL start=112
+SUB start=393298
+ADDI start = 2
+STUR start = 60052
+ADDI start = 1
+STUR start = 60053
+SUBS start=-11
+A = 0, B = 0, C= 1
+N=1, Z=0, V=0, C=1, Data Flag=1
+
+B.GT start
+SUBI start = 0
+LSL start=0
+ADD start=393298
+LDUR start = 60052
+LDUR start = 60053
+ADD start=1
+STUR start = 60054
+ADDI start = 3
+BL start
+SUBS start=-10
+A = 0, B = 0, C= 1
+N=1, Z=0, V=0, C=1, Data Flag=1
+
+B.GT start
+SUBI start = 1
+LSL start=8
+ADD start=393299
+LDUR start = 60053
+LDUR start = 60054
+ADD start=2
+STUR start = 60055
+ADDI start = 4
+BL start
+SUBS start=-9
+A = 0, B = 0, C= 1
+N=1, Z=0, V=0, C=1, Data Flag=1
+
+B.GT start
+SUBI start = 2
+LSL start=16
+ADD start=393300
+LDUR start = 60054
+LDUR start = 60055
+ADD start=3
+STUR start = 60056
+ADDI start = 5
+BL start
+SUBS start=-8
+A = 0, B = 0, C= 1
+N=1, Z=0, V=0, C=1, Data Flag=1
+
+B.GT start
+SUBI start = 3
+LSL start=24
+ADD start=393301
+LDUR start = 60055
+LDUR start = 60056
+ADD start=5
+STUR start = 60057
+ADDI start = 6
+BL start
+SUBS start=-7
+A = 0, B = 0, C= 1
+N=1, Z=0, V=0, C=1, Data Flag=1
+
+B.GT start
+SUBI start = 4
+LSL start=32
+ADD start=393302
+LDUR start = 60056
+LDUR start = 60057
+ADD start=8
+STUR start = 60058
+ADDI start = 7
+BL start
+SUBS start=-6
+A = 0, B = 0, C= 1
+N=1, Z=0, V=0, C=1, Data Flag=1
+
+B.GT start
+SUBI start = 5
+LSL start=40
+ADD start=393303
+LDUR start = 60057
+LDUR start = 60058
+ADD start=13
+STUR start = 60059
+ADDI start = 8
+BL start
+SUBS start=-5
+A = 0, B = 0, C= 1
+N=1, Z=0, V=0, C=1, Data Flag=1
+
+B.GT start
+SUBI start = 6
+LSL start=48
+ADD start=393304
+LDUR start = 60058
+LDUR start = 60059
+ADD start=21
+STUR start = 6005a
+ADDI start = 9
+BL start
+SUBS start=-4
+A = 0, B = 0, C= 1
+N=1, Z=0, V=0, C=1, Data Flag=1
+
+B.GT start
+SUBI start = 7
+LSL start=56
+ADD start=393305
+LDUR start = 60059
+LDUR start = 6005a
+ADD start=34
+STUR start = 6005b
+ADDI start = 10
+BL start
+SUBS start=-3
+A = 0, B = 0, C= 1
+N=1, Z=0, V=0, C=1, Data Flag=1
+
+B.GT start
+SUBI start = 8
+LSL start=64
+ADD start=393306
+LDUR start = 6005a
+LDUR start = 6005b
+ADD start=55
+STUR start = 6005c
+ADDI start = 11
+BL start
+SUBS start=-2
+A = 0, B = 0, C= 1
+N=1, Z=0, V=0, C=1, Data Flag=1
+
+B.GT start
+SUBI start = 9
+LSL start=72
+ADD start=393307
+LDUR start = 6005b
+LDUR start = 6005c
+ADD start=89
+STUR start = 6005d
+ADDI start = 12
+BL start
+SUBS start=-1
+A = 0, B = 0, C= 1
+N=1, Z=0, V=0, C=1, Data Flag=1
+
+B.GT start
+SUBI start = 10
+LSL start=80
+ADD start=393308
+LDUR start = 6005c
+LDUR start = 6005d
+ADD start=144
+STUR start = 6005e
+ADDI start = 13
+BL start
+SUBS start=0
+A = 0, B = 0, C= 0
+N=0, Z=1, V=0, C=0, Data Flag=1
+
+B.GT start
+ADD start=393312
+BR start
+Bottom of stack
+
+
+---Value in Memory---
+6005e = 90
+
+6005d = 59
+
+6005c = 37
+
+6005b = 22
+
+6005a = 15
+
+60059 = d
+
+60058 = 8
+
+60057 = 5
+
+60056 = 3
+
+60055 = 2
+
+60054 = 1
+
+60053 = 1
+
+60052 = 0
+
+
+
+---Value in Registers---
+Register x0 = d
+
+Register x1 = 0
+
+Register x2 = 0
+
+Register x3 = 0
+
+Register x4 = 0
+
+Register x5 = 0
+
+Register x6 = 0
+
+Register x7 = 0
+
+Register x8 = 0
+
+Register x9 = 70
+
+Register x10 = d
+
+Register x11 = 1
+
+Register x12 = 6005c
+
+Register x13 = 37
+
+Register x14 = 90
+
+Register x15 = 0
+
+Register x16 = 0
+
+Register x17 = 0
+
+Register x18 = 0
+
+Register x19 = 0
+
+Register x20 = 0
+
+Register x21 = 0
+
+Register x22 = 0
+
+Register x23 = 0
+
+Register x24 = 0
+
+Register x25 = 0
+
+Register x26 = 0
+
+Register x27 = 0
+
+Register x28 = 60060
+
+Register x29 = 60060
+
+Register x30 = 14
+
+Register x31 = 0
+
+SP=60060, FP=60060
+
+---Processor Flags---
+N=0, Z=1, V=0, C=0 Data Flag=1
+
+Christophers-MacBook:EE275 macbook$ 
